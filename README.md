@@ -10,3 +10,4 @@ Compile it with:
 gcc sipcrack2.c -lcrypto -o sipcrack2
 
 sipcrack <dump file from mitm_relay > <password list>
+  
