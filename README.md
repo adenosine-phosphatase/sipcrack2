@@ -8,6 +8,3 @@ Therefore, sipcrack2 will read the decrypted output of mitm_relay, find the dige
 
 Compile it with:
 gcc sipcrack2.c -lcrypto -o sipcrack2
-
-sipcrack <dump file from mitm_relay > <password list>
-  
