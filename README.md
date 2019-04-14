@@ -5,3 +5,8 @@ sipcrack2 was developed to facilitate password cracking from a mitm_relay.py out
 Even if we have a private key to decrypt the pcap, sipdump.py does not support the import of that private key.
 
 Therefore, sipcrack2 will read the decrypted output of mitm_relay, find the digest attributes and run password brute forcing against found responses.
+
+Compile it with:
+gcc sipcrack2.c -lcrypto -o sipcrack2
+
+sipcrack <dump file from mitm_relay > <password list>
